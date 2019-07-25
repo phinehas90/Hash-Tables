@@ -2,9 +2,9 @@
 
 # Do not use any of the built in array functions for this exercise
 class array:
-    def __init__(self):
+    def __init__(self, capacity):
         # Your code here
-        pass
+        self.capacity = capacity
 
 
 # Double the size of the given array
